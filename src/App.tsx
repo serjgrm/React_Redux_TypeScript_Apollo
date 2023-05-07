@@ -1,22 +1,19 @@
-import React from 'react';
-
-
-import './App.css';
-import styled from 'styled-components' ;
-import { HomePage } from './app/containers/Homepage';
+import React from "react";
+import styled from "styled-components";
+import { HomePage } from "./app/containers/HomePage";
 
 const AppContainer = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items:center;
-`
+  align-items: center;
+`;
 
 function App() {
   return (
-    <AppContainer className="App">
-      <HomePage/>
+    <AppContainer>
+      <HomePage />
     </AppContainer>
   );
 }
